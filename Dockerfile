@@ -1,4 +1,4 @@
-FROM node:16-slim
+FROM node:20-slim
 
 # Install puppeteer dependencies
 RUN apt-get update && apt-get install -y \
