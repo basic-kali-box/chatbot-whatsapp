@@ -52,8 +52,9 @@ RUN npm install
 # Bundle app source
 COPY . .
 
-# Create volume for auth data
-VOLUME ["/usr/src/app/.wwebjs_auth"]
+# For Railway: Use Railway Volumes for persistent session storage.
+# See: https://docs.railway.com/reference/volumes
+# Example: Mount a volume at /usr/src/app/.wwebjs_auth in your Railway project settings.
 
 # Start the bot
 CMD ["node", "index.js"]
