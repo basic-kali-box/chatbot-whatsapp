@@ -1,0 +1,16 @@
+{
+  "faqs": [
+    {
+      "question": "What are your business hours?",
+      "answer": "Our business hours are Monday to Friday, 9am to 5pm."
+    },
+    {
+      "question": "How do I reset my password?",
+      "answer": "You can reset your password by visiting our website and clicking on the 'Forgot Password' link."
+    },
+    {
+      "question": "Do you offer refunds?",
+      "answer": "Yes, we offer refunds within 30 days of purchase if you're not satisfied with our product."
+    }
+  ]
+}
